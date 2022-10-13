@@ -1,0 +1,38 @@
+get call
+http://localhost:8080/getemployees/1
+
+reponse
+{"id":1,"name":"Peter","age":32,"salary":90900}
+
+------------------------------------------
+post call
+http://localhost:8080/employees
+
+request:
+{"name":"lavith","age":32,"salary":6000}
+
+
+
+
+------------------------------
+
+put call --update 
+
+http://localhost:8081/updateemployee/10
+
+request:
+
+{"name":"afsha","age":32,"salary":6000}
+
+--------------------
+
+delete call
+http://localhost:8081/deleteemployee/10
+
+---
+
+get call list of employees
+http://localhost:8081/listemployees
+
+
+https://www.youtube.com/watch?v=jvQDIYqF6r4
